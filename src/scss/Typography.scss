@@ -1,0 +1,69 @@
+@import "./Reset.scss";
+@import "./Vars.scss";
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&display=swap");
+
+html {
+  font-size: 7px;
+  @media screen and (min-width: $sm) {
+    font-size: 8px;
+  }
+  @media screen and (min-width: $md) {
+    font-size: 10px;
+  }
+}
+
+h1 {
+  font-size: 9rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  color: $blue;
+  line-height: 10rem;
+}
+
+h2 {
+  font-size: 7.2rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  color: $blue;
+}
+
+h1.stroke {
+  color: $blue;
+  -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: $blue;
+}
+
+h4 a {
+  font-family: "Poppins", sans-serif;
+  color: $blue;
+  font-weight: 600;
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+
+p {
+  font-family: "Poppins", sans-serif;
+  color: $blue;
+  font-weight: 300;
+  font-size: 2.4rem;
+}
+
+label {
+  font-family: "Poppins", sans-serif;
+  color: $blue;
+  font-weight: 400;
+  font-size: 2.4rem;
+}
+
+button a {
+  font-family: "Poppins", sans-serif;
+  color: $pink;
+  font-weight: 600;
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+
+a:hover {
+  opacity: 0.5;
+}

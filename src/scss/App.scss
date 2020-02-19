@@ -1,0 +1,42 @@
+@import '../scss/Typography.scss';
+@import '../scss/Vars.scss';
+
+.carousel{
+    background: $pink;
+    width: 100%;
+    height: 30rem;
+}
+
+.uploadBtn{
+    background: $blue;
+    height: 40px;
+    width: 100px;
+    border: none;
+    border-radius: 10px;
+}
+
+.Navbar{
+    display: flex;
+
+    >* {
+        margin-left: $spacer2;
+    }
+
+    >h4{
+        margin-top: 1.2rem;
+    }
+
+    float: right;
+
+    margin: $spacer2 0;
+}
+
+label{
+    margin-bottom: $spacer2;
+}
+
+input{
+    margin-left: $spacer2;
+    border: 2px solid $pink;
+    border-radius: 5px;
+}
