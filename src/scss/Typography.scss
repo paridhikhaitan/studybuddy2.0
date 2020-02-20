@@ -27,6 +27,13 @@ h2 {
   color: $blue;
 }
 
+h3 {
+  font-size: 2rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  color: $blue;
+}
+
 h1.stroke {
   color: $blue;
   -webkit-text-fill-color: white; /* Will override color (regardless of order) */
@@ -56,7 +63,7 @@ label {
   font-size: 2.4rem;
 }
 
-button a {
+button a,h4 {
   font-family: "Poppins", sans-serif;
   color: $pink;
   font-weight: 600;

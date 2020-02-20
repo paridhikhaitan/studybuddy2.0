@@ -6,17 +6,17 @@ class Navbar extends React.Component{
         return(
             <div className="Navbar">
                 <h4>
-                    <a href="#">
+                    <a href="/">
                     home
                     </a>
                     
                 </h4>
                 <h4>
-                    <a href="#">
+                    <a href="/about">
                         about
                     </a>
                 </h4>
-                <button className="uploadBtn"><a href="#">upload</a></button>
+                <button className="uploadBtn"><a href="/upload">upload</a></button>
             </div>
         );
     }

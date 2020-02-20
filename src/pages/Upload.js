@@ -2,6 +2,7 @@ import React from "react";
 import { Container, Col, Row } from "react-grid-system";
 import Navbar from "../components/Navbar";
 import { text } from "body-parser";
+import "../scss/App.scss";
 
 const BASE_API_URL = "http://localhost:4000/api/books";
 
@@ -25,13 +26,13 @@ class Upload extends React.Component {
   handleChange(event) {
     const targetEvent = event.target.name;
     this.setState({ [targetEvent]: event.target.value });
-    console.log(event.target.value);
+    console.log(event.target.value + " type: " + event.target.name);
   }
 
   handleSubmit(event) {
-      event.preventDefault();
-      alert("content submitted")
-      console.log(this.state)
+    event.preventDefault();
+    alert("content submitted");
+    console.log(this.state);
   }
 
   render() {
@@ -41,14 +42,14 @@ class Upload extends React.Component {
           <Navbar />
           <br style={{ clear: "both" }} />
           <Row justify="center" style={{ textAlign: "center" }}>
-            <Col sm={6}>
+            <Col sm={8}>
               <h2>Upload Books</h2>
               <p style={{ marginTop: "2rem" }}>
                 Thank you for helping the community grow
               </p>
             </Col>
           </Row>
-          <Row justify="center">
+          <Row className="formArea">
             <Col sm={8}>
               <form onSubmit={this.handleSubmit}>
                 <label>
@@ -62,7 +63,7 @@ class Upload extends React.Component {
                 </label>
                 <br />
                 <label>
-                Link:
+                  Link:
                   <input
                     type="url"
                     value={this.state.value}
@@ -84,7 +85,7 @@ class Upload extends React.Component {
                 </label>
                 <br />
                 <label>
-                  Quarter: 
+                  Quarter:
                   <input
                     type="text"
                     value={this.state.value}
@@ -95,7 +96,7 @@ class Upload extends React.Component {
                 </label>
                 <br />
                 <label>
-                    Professor:
+                  Professor:
                   <input
                     type="text"
                     value={this.state.value}
@@ -103,13 +104,25 @@ class Upload extends React.Component {
                     onChange={this.handleChange}
                   />
                 </label>
-                <label>
-                    Type:
-
+                <br />
+                <label for="type">
+                  Type:
+                  <select id="type" name="type" onChange={this.handleChange}>
+                    <option value="document">Document</option>
+                    <option value="syllabus">Syllabus</option>
+                    <option value="review">Review Notes</option>
+                  </select>
                 </label>
-
-                <button type="submit">UPLOAD</button>
+                <br />
+                <button type="submit" className="saveUpload">
+                  <h4>upload</h4>
+                </button>
               </form>
+            </Col>
+            <Col sm={5} className="images">
+              <div className="imagesForm">
+                <img src={require("../images/uploadpage.svg")} />
+              </div>
             </Col>
           </Row>
         </Container>

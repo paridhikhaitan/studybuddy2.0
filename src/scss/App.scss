@@ -1,42 +1,114 @@
-@import '../scss/Typography.scss';
-@import '../scss/Vars.scss';
+@import "../scss/Typography.scss";
+@import "../scss/Vars.scss";
 
-.carousel{
-    background: $pink;
+.carousel {
+  background: $pink;
+  width: 100%;
+  height: 30rem;
+}
+
+.uploadBtn {
+  background: $blue;
+  height: 40px;
+  width: 100px;
+  border: none;
+  border-radius: 10px;
+}
+
+.saveUpload {
+  background: $blue;
+  height: 40px;
+  width: 300px;
+  border: none;
+  border-radius: 10px;
+  margin-top: $spacer3;
+}
+
+.Navbar {
+  display: flex;
+
+  > * {
+    margin-left: $spacer2;
+  }
+
+  > h4 {
+    margin-top: 1.2rem;
+  }
+
+  float: right;
+
+  margin: $spacer2 0;
+}
+
+input, select {
+  margin-top: $spacer2;
+  margin-left: $spacer2;
+  border: 2px solid $pink;
+  border-radius: 5px;
+  font-size: 1.5rem;
+  line-height: 3rem;
+  width: 60%;
+}
+
+.searchBar {
+  margin-top: $spacer2;
+  margin-bottom: $spacer1;
+
+  .searchCol {
+    border: 2px solid $blue;
+    line-height: 4rem;
+    border-radius: 10px;
+  }
+}
+
+.bookdisplay {
+  .graphDisplay {
     width: 100%;
     height: 30rem;
-}
+    background: $pink;
+    margin-top: -$spacer2;
+  }
 
-.uploadBtn{
-    background: $blue;
-    height: 40px;
-    width: 100px;
-    border: none;
-    border-radius: 10px;
-}
+  > * {
+    margin-top: $spacer2;
+  }
 
-.Navbar{
-    display: flex;
+  a {
+    text-decoration: none;
+  }
 
-    >* {
-        margin-left: $spacer2;
+  .title {
+    h3 {
+      font-weight: 400;
+      font-size: 1.8rem;
     }
-
-    >h4{
-        margin-top: 1.2rem;
-    }
-
-    float: right;
-
-    margin: $spacer2 0;
+  }
 }
 
-label{
-    margin-bottom: $spacer2;
+.folder {
+  width: 100%;
+  margin-top: $spacer3;
+
+  img {
+    width: 100%;
+  }
+
+  p {
+    font-weight: 500;
+    text-align: center;
+    margin-top: -$spacer2;
+    font-size: 1.8rem;
+  }
 }
 
-input{
-    margin-left: $spacer2;
-    border: 2px solid $pink;
-    border-radius: 5px;
+.formArea{
+  margin-top: $spacer3;
+}
+
+.imagesForm{
+  width: 100%;
+
+  img{
+    width: 600px;
+  }
 }
