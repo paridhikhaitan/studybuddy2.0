@@ -5,12 +5,15 @@ import Navbar from "./components/Navbar";
 import books from "./data/books.json";
 import classArr from "./data/courseName";
 import BookDisplay from "./pages/BookDisplay";
-
-setConfiguration({ gutterWidth: 60, gridColumns: 15 });
+import imageMap from './data/imageMap';
 
 const classFolder = classArr.map(book => {
+  let imgLink;
+
+  console.log(imageMap[book]);
+
   return (
-    <Col sm={3}>
+    <Col sm={4} xs={8}>
       <a href="/book" style={{textDecoration: "none"}}>
         <div
           className="folder"
@@ -34,7 +37,7 @@ function App() {
         <Navbar />
         <br style={{ clear: "both" }} />
         <Row>
-          <Col sm={5}>
+          <Col sm={6}>
             <h1 className="stroke">UCSD</h1>
             <h1>study buddy</h1>
           </Col>

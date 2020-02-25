@@ -20,10 +20,30 @@ h1 {
   line-height: 10rem;
 }
 
+h6{
+  font-family: 'Poppins', sans-serif;
+  color: $coral;
+  font-size: 1.8rem;
+  margin-top: $spacer1;
+  font-weight: 600;
+}
+
+h6:hover{
+  opacity: 0.5;
+}
+
 h2 {
-  font-size: 7.2rem;
+  font-size: 6.8rem;
   font-family: "Poppins", sans-serif;
   font-weight: 500;
+  color: $blue;
+}
+
+h5 {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 3.6rem;
   color: $blue;
 }
 
@@ -63,7 +83,8 @@ label {
   font-size: 2.4rem;
 }
 
-button a,h4 {
+button a,
+h4 {
   font-family: "Poppins", sans-serif;
   color: $pink;
   font-weight: 600;
@@ -73,4 +94,10 @@ button a,h4 {
 
 a:hover {
   opacity: 0.5;
+}
+
+input, select{
+  font-size: 1.6rem;
+  font-family: 'Poppins', sans-serif;
+  color: $blue;
 }

@@ -1,74 +1,44 @@
 [
     {
-        "course":"",
-        "type": "",
-        "title": "",
-        "professor":""
+        "course":"BIMM 101",
+        "type": "Textbook",
+        "title": "Bioengineering",
+        "professor":"Ninja Hattori"
     },
     {
-        "course":"",
-        "type": "",
-        "title": "",
-        "professor":""
+        "course":"BIMM 101",
+        "type": "Textbook",
+        "title": "Bioengineering",
+        "professor":"Ninja Hattori"
     },
     {
-        "course":"",
-        "type": "",
-        "title": "",
-        "professor":""
+        "course":"BIMM 101",
+        "type": "Textbook",
+        "title": "Bioengineering",
+        "professor":"Ninja Hattori"
     },
     {
-        "course":"",
-        "type": "",
-        "title": "",
-        "professor":""
+        "course":"BIMM 101",
+        "type": "Textbook",
+        "title": "Bioengineering",
+        "professor":"Ninja Hattori"
     },
     {
-        "course":"",
-        "type": "",
-        "title": "",
-        "professor":""
+        "course":"BIMM 101",
+        "type": "Textbook",
+        "title": "Bioengineering",
+        "professor":"Ninja Hattori"
     },
     {
-        "course":"",
-        "type": "",
-        "title": "",
-        "professor":""
+        "course":"BIMM 101",
+        "type": "Textbook",
+        "title": "Bioengineering",
+        "professor":"Ninja Hattori"
     },
     {
-        "course":"",
-        "type": "",
-        "title": "",
-        "professor":""
-    },
-    {
-        "course":"",
-        "type": "",
-        "title": "",
-        "professor":""
-    },
-    {
-        "course":"",
-        "type": "",
-        "title": "",
-        "professor":""
-    },
-    {
-        "course":"",
-        "type": "",
-        "title": "",
-        "professor":""
-    },
-    {
-        "course":"",
-        "type": "",
-        "title": "",
-        "professor":""
-    },
-    {
-        "course":"",
-        "type": "",
-        "title": "",
-        "professor":""
+        "course":"BIMM 101",
+        "type": "Textbook",
+        "title": "Bioengineering",
+        "professor":"Ninja Hattori"
     }
 ]

@@ -7,6 +7,51 @@
   height: 30rem;
 }
 
+.wishlist {
+  position: absolute;
+  top: 0;
+
+  width: 85%;
+  background-color: $lightpink;
+  border-right: 2px solid $pink;
+
+  h1 {
+    margin: $spacer2 0;
+  }
+
+  h2 {
+    margin-bottom: $spacer3;
+  }
+
+  img {
+    width: 100%;
+  }
+
+  h3 {
+    margin-bottom: $spacer2;
+  }
+
+  h5 {
+    margin: -$spacer5 $spacer3 $spacer5 $spacer3;
+    text-align: center;
+  }
+
+  p {
+    font-size: 1.8rem;
+  }
+
+  .prevWish {
+    margin: $spacer2 0;
+  }
+
+  form {
+    button {
+      margin-top: $spacer3;
+      margin-bottom: $spacer4;
+    }
+  }
+}
+
 .uploadBtn {
   background: $blue;
   height: 40px;
@@ -40,14 +85,14 @@
   margin: $spacer2 0;
 }
 
-input, select {
+input,
+select {
   margin-top: $spacer2;
-  margin-left: $spacer2;
-  border: 2px solid $pink;
-  border-radius: 5px;
-  font-size: 1.5rem;
-  line-height: 3rem;
-  width: 60%;
+  border: 2px solid $blue;
+  border-radius: 10px;
+  line-height: 4rem;
+  padding-left: $spacer1;
+  width: 100%;
 }
 
 .searchBar {
@@ -59,6 +104,18 @@ input, select {
     line-height: 4rem;
     border-radius: 10px;
   }
+}
+
+.wishlistBtn {
+  position: sticky;
+  width: 100px;
+  margin-left: 95%;
+  bottom: 0;
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
 }
 
 .bookdisplay {
@@ -101,14 +158,42 @@ input, select {
   }
 }
 
-.formArea{
+.formArea {
   margin-top: $spacer3;
 }
 
-.imagesForm{
+.imagesForm {
   width: 100%;
 
-  img{
+  img {
     width: 600px;
+  }
+}
+
+.uploadHeader{
+  text-align: right;
+  margin-bottom: $spacer3;
+}
+
+.step {
+  .number {
+    p {
+      font-family: "Poppins", sans-serif;
+      font-size: 30rem;
+      font-weight: 500;
+      color: $gray;
+    }
+  }
+
+  img {
+    width: 100%;
+  }
+
+  h3 {
+    font-weight: 600;
+  }
+
+  h6 {
+    cursor: pointer;
   }
 }
