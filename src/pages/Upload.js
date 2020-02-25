@@ -11,18 +11,19 @@ class Upload extends React.Component {
     super(props);
 
     this.state = {
-      title: "",
+      link: "",
       class: "",
       quarter: "",
       type: "",
       professor: "",
       name: "",
-      step1: true,
+      step1: false,
       step2: false,
       step3: false,
       step4: false,
       step5: false,
-      step6: false
+      step6: false,
+      step7: true
     };
 
     this.handleChange = this.handleChange.bind(this);
@@ -38,7 +39,6 @@ class Upload extends React.Component {
 
   handleSubmit(event) {
     event.preventDefault();
-    alert("content submitted");
     console.log(this.state);
   }
 
@@ -112,7 +112,7 @@ class Upload extends React.Component {
                     type="text"
                     onChange={this.handleChange}
                     value={this.state.value}
-                    name="class"
+                    name="link"
                     placeholder="http://"
                   />
                 </label>
@@ -248,8 +248,7 @@ class Upload extends React.Component {
                 </label>
                 <h6
                   onClick={() => {
-                    this.setState({ step5: false });
-                    this.setState({ step6: true });
+                    this.setState({ step6: false, step7: true });
                   }}
                 >
                   Continue ->
@@ -259,6 +258,31 @@ class Upload extends React.Component {
                 <img src={require("../images/step6.svg")} />
               </Col>
             </Row>
+          )}
+
+          {this.state.step7 && (
+            <div className="uploadedScreen">
+              <Row justify="center">
+                
+              </Row>
+              <Row justify="center" onLoad={this.handleSubmit}>
+                <Col xs={8}>
+                  <img src={require("../images/step7.svg")} />
+                </Col>
+              </Row>
+              <Row justify="center">
+                <Col xs={4}>
+                  <button className="uploadMore">
+                    <a href="/upload">Upload More</a>
+                  </button>
+                </Col>
+                <Col xs={2}>
+                  <button className="home">
+                    <a href="/">Home</a>
+                  </button>
+                </Col>
+              </Row>
+            </div>
           )}
 
           {/*<Row justify="center" style={{ textAlign: "center" }}>

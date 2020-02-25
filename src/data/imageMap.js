@@ -15,7 +15,7 @@ imageMap["MAE"] = "./images/icons/mae.svg"
 imageMap["MATH"] = "./images/icons/math.svg"
 imageMap["MGT"] = "./images/icons/mgt.svg"
 imageMap["PHIL"] = "./images/icons/phil.svg"
-imageMap["PSYCH"] = "./images/icons/psych.svg"
+imageMap["PSYC"] = "./images/icons/psych.svg"
 imageMap["VIS"] = "./images/icons/vis.svg"
 
 export default imageMap;

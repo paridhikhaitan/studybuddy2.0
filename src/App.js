@@ -8,9 +8,15 @@ import BookDisplay from "./pages/BookDisplay";
 import imageMap from './data/imageMap';
 
 const classFolder = classArr.map(book => {
-  let imgLink;
 
-  console.log(imageMap[book]);
+  let imgLink;
+  if(imageMap[book] === undefined){
+    imgLink = imageMap["DEF"];
+  } else {
+    imgLink = imageMap[book];
+  }
+
+  console.log(imgLink)
 
   return (
     <Col sm={4} xs={8}>
@@ -23,7 +29,11 @@ const classFolder = classArr.map(book => {
           }}
         >
           <img src={require("./images/folder.svg")} />
-          <p>{book}</p>
+          <div className="textThingy">
+            <img src={require(`${imgLink}`)} alt={imgLink}/>
+            <p>{book}</p>
+          </div>
+         
         </div>
       </a>
     </Col>
