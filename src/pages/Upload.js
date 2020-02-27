@@ -17,13 +17,13 @@ class Upload extends React.Component {
       type: "",
       professor: "",
       name: "",
-      step1: false,
+      step1: true,
       step2: false,
       step3: false,
       step4: false,
       step5: false,
       step6: false,
-      step7: true
+      step7: false
     };
 
     this.handleChange = this.handleChange.bind(this);
