@@ -12,11 +12,11 @@ class Upload extends React.Component {
 
     this.state = {
       link: "",
-      class: "",
+      course_name: "",
       quarter: "",
       type: "",
       professor: "",
-      name: "",
+      book_title: "",
       step1: true,
       step2: false,
       step3: false,
@@ -28,7 +28,6 @@ class Upload extends React.Component {
 
     this.handleChange = this.handleChange.bind(this);
     this.handleSubmit = this.handleSubmit.bind(this);
-    this.continueClick = this.continueClick.bind(this);
   }
 
   handleChange(event) {
@@ -40,15 +39,6 @@ class Upload extends React.Component {
   handleSubmit(event) {
     event.preventDefault();
     console.log(this.state);
-  }
-
-  continueClick(from, to) {
-    let f = from;
-    let t = to;
-    console.log(this.state.f, this.state.t);
-    this.setState({
-      step1: false
-    });
   }
 
   render() {

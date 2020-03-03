@@ -1,0 +1,772 @@
+[
+    {
+        "course_name": "CAT 2",
+        "book_title": "The Society of the Spectacle",
+        "link": "http://www.antiworld.se/project/references/texts/The_Society%20_Of%20_The%20_Spectacle.pdf",
+        "type": "textbook"
+    },
+    {
+        "course_name": "CHEM 100A",
+        "book_title": "Quantitative Chemical Analysis (9e)",
+        "link": "https://drive.google.com/file/d/1CScqCvPVLI4QIAFV49CNoB5v3yWew7C2/view?usp=sharing",
+        "type": "textbook"
+    },
+    {
+        "course_name": "CHEM 114A",
+        "book_title": "Biochemistry",
+        "link": "https://drive.google.com/open?id=1RXgSQiZQGNZWHs7ZZV5Y-8J7TQ_j0kyM",
+        "type": "textbook"
+    },
+    {
+        "course_name": "CHEM 114B",
+        "book_title": "Fundamentals of Biochemistry: Life at the Molecular Level",
+        "link": "https://drive.google.com/a/ucsd.edu/uc?id=1X2nwswT2PSJnCy74ml-QoVzQPJ48kcwH&export=download",
+        "type": "textbook"
+    },
+    {
+        "course_name": "CHEM 120",
+        "book_title": "Inorganic Chemistry",
+        "link": "https://drive.google.com/file/d/0B3aPSe_T6URpdmZ6SG9WekI0VWs/view?usp=sharing",
+        "type": "textbook"
+    },
+    {
+        "course_name": "CHEM 127",
+        "book_title": "Thermodynamics",
+        "link": "https://astro.ins.urfu.ru/sites/default/files/upload_files/temp/1/Physical_istry_for_the_life_sciences.pdf",
+        "type": "textbook"
+    },
+    {
+        "course_name": "CHEM 130",
+        "book_title": "Quantum Chemistry",
+        "link": "https://drive.google.com/open?id=0B78ciPGGQ3W_QjZqeDVlYTFaT3c",
+        "type": "textbook"
+    },
+    {
+        "course_name": "CHEM 131",
+        "book_title": "Thermodynamic Chemistry",
+        "link": "https://drive.google.com/file/d/1icKxlW2XoYvxQhuwlKIwRuHfsPVCPxfe/view?usp=sharing",
+        "type": "textbook"
+    },
+    {
+        "course_name": "CHEM 156",
+        "book_title": "Modern Physical Organic Chemistry",
+        "link": "https://www.dropbox.com/s/huqeos2ibqk3thd/modern%20physical%20organic%20istry.pdf?dl=0",
+        "type": "textbook"
+    },
+    {
+        "course_name": "CHEM 157",
+        "book_title": "Natural Products Chemistry",
+        "link": "https://drive.google.com/a/ucsd.edu/file/d/0B2J1GBvDHPbXYVY1T2tLa0dlLTg/view?usp=docslist_api",
+        "type": "textbook"
+    },
+    {
+        "course_name": "CHEM 168",
+        "book_title": "Intro To Medicinal Chemistry",
+        "link": "https://drive.google.com/file/d/1dW13OvzgbpvrhypQlCFZ0nPZ3fatD819/view?usp=sharing",
+        "type": "textbook"
+    },
+    {
+        "course_name": "CHEM 171",
+        "book_title": "Environmental Chemistry",
+        "link": "https://www.google.com/url?q=https://docs.google.com/uc?id%3D0B75VMZ0WrfFZclRZUVF0Z1ZSWnM%26export%3Ddownload&sa=D&ust=1547247874935000&usg=AFQjCNH5KXIRgqX4EtSU8o7jlUzye55W7Q",
+        "type": "textbook"
+    },
+    {
+        "course_name": "CHEM 40A",
+        "book_title": "Organic Chemistry",
+        "link": "https://drive.google.com/file/d/1LrYeCbXfvvwRRifky9rw2b0gIXKcAw1y/view",
+        "type": "textbook"
+    },
+    {
+        "course_name": "CHEM 40B",
+        "book_title": "Organic Chemistry",
+        "link": "https://drive.google.com/file/d/1LrYeCbXfvvwRRifky9rw2b0gIXKcAw1y/view",
+        "type": "textbook"
+    },
+    {
+        "course_name": "CHEM 40B",
+        "book_title": "Quantum Mechanics",
+        "link": "https://astro.ins.urfu.ru/sites/default/files/upload_files/temp/1/Physical_istry_for_the_life_sciences.pdf",
+        "type": "textbook"
+    },
+    {
+        "course_name": "CHEM 40C",
+        "book_title": "Organic Chemistry",
+        "link": "https://drive.google.com/file/d/1LrYeCbXfvvwRRifky9rw2b0gIXKcAw1y/view",
+        "type": "textbook"
+    },
+    {
+        "course_name": "CHEM 43A",
+        "book_title": "The Organic Chem Lab Survival Manual",
+        "link": "https://www.dropbox.com/s/blsohg4afaiu96i/fi8du.The.Organic..Lab.Survival.Manual.A.Students.Guide.to.Techniques.9th.Edition.pdf?dl=0",
+        "type": "textbook",
+        "professor": "Ternansky"
+    },
+    {
+        "course_name": "CHEM 43A ",
+        "book_title": "Techniques in Organic Chemistry",
+        "link": "https://drive.google.com/file/d/1ltJSFW-5kmLNRpZuqIH1iMsKEs74zaey/view?usp=sharing",
+        "type": "textbook",
+        "professor": "Klosterman"
+    },
+    {
+        "course_name": "CHEM 43C",
+        "book_title": "The Systematic Identification of Organic Compounds",
+        "link": "https://drive.google.com/file/d/0B9AuSkpMB9zCUHE5ZjFEdmlldlU/view?usp=sharing",
+        "type": "textbook"
+    },
+    {
+        "course_name": "CHEM 6",
+        "book_title": "General Chem (4th Edition)",
+        "link": "https://drive.google.com/file/d/0Bwry_HU7wKs0UlB6M3NKdXFGNDg/view",
+        "type": "textbook"
+    },
+    {
+        "course_name": "COGS 101",
+        "book_title": "Essential Guide to Analytical Writing with Humor Writings",
+        "link": "https://drive.google.com/open?id=0B-8l1dSwS_4eVWZxZlZtUVdRSmc",
+        "type": "textbook"
+    },
+    {
+        "course_name": "COGS 101A",
+        "book_title": "Sensation and Perception",
+        "link": "https://drive.google.com/open?id=0B-8l1dSwS_4eVWZxZlZtUVdRSmc",
+        "type": "textbook"
+    },
+    {
+        "course_name": "COGS 107A",
+        "book_title": "Neuroscience",
+        "link": "https://drive.google.com/file/d/0B2s3oTWSKnMkdy1NQ1U5TEJaUms/view",
+        "type": "textbook"
+    },
+    {
+        "course_name": "COGS 107B",
+        "book_title": "Neuroscience",
+        "link": "https://drive.google.com/file/d/0B2s3oTWSKnMkdy1NQ1U5TEJaUms/view",
+        "type": "textbook"
+    },
+    {
+        "course_name": "COGS 107C",
+        "book_title": "Neuroscience",
+        "link": "https://drive.google.com/file/d/0B2s3oTWSKnMkdy1NQ1U5TEJaUms/view",
+        "type": "textbook"
+    },
+    {
+        "course_name": "COGS 14A",
+        "book_title": "Research Methods in Psychology",
+        "link": "https://drive.google.com/file/d/0Bwry_HU7wKs0TzNIRGNOeXNzbTg/view?usp=sharing",
+        "type": "textbook"
+    },
+    {
+        "course_name": "CSE 101",
+        "book_title": "Algorithms",
+        "link": "http://megaloft.net/file/download/326",
+        "type": "textbook"
+    },
+    {
+        "course_name": "CSE 11",
+        "book_title": "Introduction to Computing & Programming in Java",
+        "link": "http://www.comscigate.com/Books/Eventful_Approach_2004/bookmain1-12.pdf",
+        "type": "textbook"
+    },
+    {
+        "course_name": "CSE 140",
+        "book_title": "Fundamentals of Logic Design",
+        "link": "https://drive.google.com/open?id=0B78ciPGGQ3W_aWF0UElxcnk2UHc",
+        "type": "textbook"
+    },
+    {
+        "course_name": "CSE 141",
+        "book_title": "general F",
+        "link": "http://ac.aua.am/arm/public/2017-Spring-Computer-Organization/Textbooks/ComputerOrganizationAndDesign5thEdition2014.pdf",
+        "type": "textbook"
+    },
+    {
+        "course_name": "CSE 30",
+        "book_title": "Digital Design and Computer Architecture: ARM Edition",
+        "link": "https://drive.google.com/open?id=0B3duptM0FsEAMEJIdWFaYzY2Zkk",
+        "type": "textbook"
+    },
+    {
+        "course_name": "CSE 30",
+        "book_title": "Arm Assembly and Techniques",
+        "link": "https://drive.google.com/a/ucsd.edu/file/d/1cM-yYTGdRPnpq12t7-eyIPQF4kqbAqKU/view?usp=sharing",
+        "type": "textbook"
+    },
+    {
+        "course_name": "CSE 7",
+        "book_title": "MATLAB Practical Introduction to programming and problem solving",
+        "link": "http://poincare.matf.bg.ac.rs/~djenic/literatura-matlab.pdf",
+        "type": "textbook"
+    },
+    {
+        "course_name": "CSE 8A",
+        "book_title": "Introducion to Computing and Java: A Multimedia Approach(2006)",
+        "link": "https://www.dropbox.com/s/jkwl511s9lo4poq/Barbara%20Ericson%20Introduction%20to%20Computing%20and%20Programming%20with%20Java%20%20A%20Multimedia%20Approach.pdf?dl=0",
+        "type": "textbook"
+    },
+    {
+        "course_name": "DSGN 1",
+        "book_title": "Design of Everyday Things",
+        "link": "http://www.nixdell.com/classes/HCI-and-Design-Spring-2017/The-Design-of-Everyday-Things-Revised-and-Expanded-Edition.pdf",
+        "type": "textbook"
+    },
+    {
+        "course_name": "ECE 101",
+        "book_title": "Signals & Systems",
+        "link": "http://elmar.yt/skolasjitt/2ar/Merkiogkerfi/verklegtbok.pdf",
+        "type": "textbook"
+    },
+    {
+        "course_name": "ECE 103",
+        "book_title": "Semiconductor Device Fundamentals",
+        "link": "https://drive.google.com/drive/folders/0B9m1qGzkFP7ZN1k2RVFabGk3cGM?usp=sharing",
+        "type": "textbook"
+    },
+    {
+        "course_name": "ECE 109",
+        "book_title": "A First Course in Probability",
+        "link": "http://zalsiary.kau.edu.sa/Files/0009120/Files/119387_A_First_Course_in_Probability_8th_Edition.pdf",
+        "type": "textbook"
+    },
+    {
+        "course_name": "ECE 15",
+        "book_title": "Programming in C",
+        "link": "http://www.moreware.org/books/Kochan%20-%20ProgramminginC.pdf",
+        "type": "textbook"
+    },
+    {
+        "course_name": "ECE 161A",
+        "book_title": "Discrete Time Signal Processing",
+        "link": "https://drive.google.com/file/d/1ippJWJGKBYIbOFu_s3b4edgDi8y2kS9h/view",
+        "type": "textbook"
+    },
+    {
+        "course_name": "ECE 171A",
+        "book_title": "Modern Control Systems Theory",
+        "link": "http://sv.20file.org/up1/951_0.pdf",
+        "type": "textbook"
+    },
+    {
+        "course_name": "ECE 35",
+        "book_title": "Introduction to Electric Circuits",
+        "link": "https://drive.google.com/file/d/0B84r_ECrTK96aEk4MVhtc1RvSVU/view",
+        "type": "textbook"
+    },
+    {
+        "course_name": "ECE141B",
+        "book_title": "Design Patterns",
+        "link": "https://drive.google.com/open?id=1HQhWBWGypiIHdYqlplKr8kM9C_KrT0R5",
+        "type": "textbook"
+    },
+    {
+        "course_name": "ECE141B",
+        "book_title": "Design Patterns (1994)",
+        "link": "https://drive.google.com/file/d/1ippJWJGKBYIbOFu_s3b4edgDi8y2kS9h/view",
+        "type": "textbook"
+    },
+    {
+        "course_name": "ECON 100A",
+        "book_title": "Principles of MicroEconomics",
+        "link": "https://drive.google.com/file/d/12pv752y9dqZhFvHjfSAY0gv8artlrV_U/view",
+        "type": "textbook"
+    },
+    {
+        "course_name": "ECON 100B",
+        "book_title": "Principles of MicroEconomics",
+        "link": "https://drive.google.com/file/d/12pv752y9dqZhFvHjfSAY0gv8artlrV_U/view",
+        "type": "textbook"
+    },
+    {
+        "course_name": "ECON 100C",
+        "book_title": "Principles of MicroEconomics",
+        "link": "https://drive.google.com/file/d/12pv752y9dqZhFvHjfSAY0gv8artlrV_U/view",
+        "type": "textbook"
+    },
+    {
+        "course_name": "Econ 120",
+        "book_title": "Introduction to Econometrics",
+        "link": "https://econometricsweb.files.wordpress.com/2016/11/stock-watson-econometrics-3rd-edition-ilovepdf-compressed.pdf",
+        "type": "textbook"
+    },
+    {
+        "course_name": "ECON 131",
+        "book_title": "Foundations of Contemporary Environmental Studies",
+        "link": "https://drive.google.com/file/d/0B2Xe62bwsVqNbjJmNzNjZ1I1cUk/view?usp=sharing",
+        "type": "textbook"
+    },
+    {
+        "course_name": "ECON 172A",
+        "book_title": "Introduction to Operations Research",
+        "link": "https://drive.google.com/file/d/1wlqcKvJQcoBLkYzxz7dWHB15LquQmBOX/view?usp=sharing",
+        "type": "textbook"
+    },
+    {
+        "course_name": "ECON 172B",
+        "book_title": "Introduction to Operations Research",
+        "link": "https://drive.google.com/file/d/1wlqcKvJQcoBLkYzxz7dWHB15LquQmBOX/view?usp=sharing",
+        "type": "textbook"
+    },
+    {
+        "course_name": "HUM 1",
+        "book_title": "Euripides I",
+        "link": "https://drive.google.com/file/d/0B5QMHRuSqlXWYlMwSG5sSDdSYnc/view",
+        "type": "textbook"
+    },
+    {
+        "course_name": "HUM 1",
+        "book_title": "The Holy Scriptures",
+        "link": "https://drive.google.com/file/d/0B9HPL2iQYQmmSVMxdzdBbXdxeTg/view",
+        "type": "textbook"
+    },
+    {
+        "course_name": "HUM 1",
+        "book_title": "Hesiod: Theogony Works and Days",
+        "link": "https://monoskop.org/images/a/a3/Hesiod_Theogony_Works_and_Days_trans_West.pdf",
+        "type": "textbook"
+    },
+    {
+        "course_name": "HUM 1",
+        "book_title": "King James Bible Online",
+        "link": "https://www.kingjamesbibleonline.org/",
+        "type": "textbook"
+    },
+    {
+        "course_name": "HUM 5",
+        "book_title": "Manifesto of the COmmunist Party ",
+        "link": "https://www.marxists.org/archive/marx/works/download/pdf/Manifesto.pdf",
+        "type": "textbook"
+    },
+    {
+        "course_name": "JAPN 10A",
+        "book_title": "Yokosoo ",
+        "link": "https://drive.google.com/file/d/1LCbb-4IpzyOuOVfzGh40UxeKj3OxW4al/view",
+        "type": "textbook"
+    },
+    {
+        "course_name": "JAPN 10A",
+        "book_title": "Yokosoo WB",
+        "link": "https://drive.google.com/file/d/1VD_-PM6rXzlBfE-6kzv3JEI29PXBCBve/view",
+        "type": "textbook"
+    },
+    {
+        "course_name": "JAPN 10B",
+        "book_title": "Yokosoo ",
+        "link": "https://drive.google.com/file/d/1LCbb-4IpzyOuOVfzGh40UxeKj3OxW4al/view",
+        "type": "textbook"
+    },
+    {
+        "course_name": "JAPN 10B",
+        "book_title": "Yokosoo WB",
+        "link": "https://drive.google.com/file/d/1VD_-PM6rXzlBfE-6kzv3JEI29PXBCBve/view",
+        "type": "textbook"
+    },
+    {
+        "course_name": "JAPN 10C",
+        "book_title": "Yokosoo ",
+        "link": "https://drive.google.com/file/d/1LCbb-4IpzyOuOVfzGh40UxeKj3OxW4al/view",
+        "type": "textbook"
+    },
+    {
+        "course_name": "JAPN 10C",
+        "book_title": "Yokosoo WB",
+        "link": "https://drive.google.com/file/d/1VD_-PM6rXzlBfE-6kzv3JEI29PXBCBve/view",
+        "type": "textbook"
+    },
+    {
+        "course_name": "LIGN 101",
+        "book_title": "An Introduction to Language",
+        "link": "https://www.dropbox.com/s/6i1gg1c8q5xx467/Victoria%20Fromkin%2C%20Robert%20Rodman%2C%20Nina%20Hyams%20An%20Introduction%20to%20Language%20%20%20%202010_0.pdf?dl=0",
+        "type": "textbook"
+    },
+    {
+        "course_name": "LIGN 101",
+        "book_title": "An Introduction to Language 11th Edition",
+        "link": "https://drive.google.com/file/d/1azpxrXW-LZhSt3qCBQQS55o043C4gOsD/view?usp=sharing",
+        "type": "textbook"
+    },
+    {
+        "course_name": "LIGN 120",
+        "book_title": "Understanding Morphology",
+        "link": "https://arkitecturadellenguaje.files.wordpress.com/2012/12/understanding-morphology-second-edition.pdf",
+        "type": "textbook"
+    },
+    {
+        "course_name": "LIGN 150",
+        "book_title": "Historical Linguistics: An Introduction",
+        "link": "http://www.jstor.org/stable/10.3366/j.ctt1g0b5gq",
+        "type": "textbook"
+    },
+    {
+        "course_name": "MAE 101A",
+        "book_title": "Fundamentals of Fluid Mechanics",
+        "link": "https://drive.google.com/file/d/1XcJVMf1Kwti0tu5aRyazBuU2-Qb_xcrd/view?usp=sharing",
+        "type": "textbook"
+    },
+    {
+        "course_name": "MAE 110A",
+        "book_title": "Fundamentals of Engineering Thermodynamics",
+        "link": "https://drive.google.com/file/d/0B7oTe7nkcN4iRldNVkl6ejlkeDA/view",
+        "type": "textbook"
+    },
+    {
+        "course_name": "MAE 130C",
+        "book_title": "Mechanical Vibrations",
+        "link": "https://drive.google.com/file/d/0B7oTe7nkcN4ieFNKOWpBVFVNNGc/view",
+        "type": "textbook"
+    },
+    {
+        "course_name": "MAE 131A",
+        "book_title": "The Analysis & Design of Linear Circuits",
+        "link": "https://drive.google.com/file/d/0B4zEOWDZbOJ8Vk5qc0VvRTdBeDA/view",
+        "type": "textbook"
+    },
+    {
+        "course_name": "MAE 131A",
+        "book_title": "Solution Calculus",
+        "link": "https://drive.google.com/file/d/0B2gCswZlsjFebVZzR2d2Y2pKNnc/view",
+        "type": "textbook"
+    },
+    {
+        "course_name": "MAE 140",
+        "book_title": "Analysis & Design of Linear Circuits",
+        "link": "http://engineeringbookspdf.com/download/2017/10/201017/The%20Analysis%20and%20Design%20of%20Linear%20Circuits%208th%20Edition%20By%20Roland%20E%20Thomas.pdf",
+        "type": "textbook"
+    },
+    {
+        "course_name": "MAE 20",
+        "book_title": "Materials Science and Engineering",
+        "link": "https://drive.google.com/file/d/0B6mCWggVFhEGaTJWNHRDM0doSlU/view?usp=sharing",
+        "type": "textbook"
+    },
+    {
+        "course_name": "MAE 8",
+        "book_title": "MATLAB A Practical Introduction to Programming and Problem Solving",
+        "link": "https://www.sciencedirect.com/science/book/9780128045251",
+        "type": "textbook"
+    },
+    {
+        "course_name": "MATH 10",
+        "book_title": "Calculus: Single and Multivariable (Solutions)",
+        "link": "https://drive.google.com/file/d/1w1ZQzCuaJIODCGkZG-roBWeZxr_tEgab/view?usp=sharing",
+        "type": "textbook"
+    },
+    {
+        "course_name": "MATH 102",
+        "book_title": "Linear Algebra with Applications",
+        "link": "https://drive.google.com/open?id=1YQBtsdxjKDSnDCc34qAkbMNeMe10weY1",
+        "type": "textbook"
+    },
+    {
+        "course_name": "MATH 103A",
+        "book_title": "Contemporary Abstract Algebra",
+        "link": "https://drive.google.com/file/d/1hWeblO2-rILEJaq3pFNX5NjIevfDyksM/view?usp=sharing",
+        "type": "textbook"
+    },
+    {
+        "course_name": "MATH 109",
+        "book_title": "Intro to Mathematical Reasoning (only works on school wifi)",
+        "link": "https://www.cambridge.org/core/books/an-introduction-to-mathematical-reasoning/884E620008388D6452ED9707CBEA0BF0?pageNum=1&searchWithinIds=884E620008388D6452ED9707CBEA0BF0&productType=BOOK_PART&searchWithinIds=884E620008388D6452ED9707CBEA0BF0&productType=BOOK_PART&sort=mtdMetadata.bookPartMeta._mtdPositionSortable%3Aasc&pageSize=30&template=cambridge-core%2Fbook%2Fcontents%2Flistings&ignoreExclusions=true",
+        "type": "textbook"
+    },
+    {
+        "course_name": "MATH 170A",
+        "book_title": "Fundamentals of Matrix Computations",
+        "link": "https://drive.google.com/file/d/1ESp9Y5IzpDwnSKCta0hw9g0MHHZkv6w_/view?usp=sharing",
+        "type": "textbook"
+    },
+    {
+        "course_name": "MATH 170B",
+        "book_title": "Numberical Analysis",
+        "link": "https://drive.google.com/file/d/0B3rVgerg-wAZY2t4LUhQeHktYnc/view",
+        "type": "textbook"
+    },
+    {
+        "course_name": "MATH 18",
+        "book_title": "Linear Algebra and Its Applications",
+        "link": "https://onedrive.live.com/?authkey=%21AFCbp-YaAUzqCJk&cid=EE2502D1862EA1BF&id=EE2502D1862EA1BF%212005&parId=root&o=OneUp",
+        "type": "textbook"
+    },
+    {
+        "course_name": "MATH 180B",
+        "book_title": "Intro to Stochastic Process (Fourth Edition)",
+        "link": "https://drive.google.com/file/d/1rZJA4u4NwNUkWA7u2pDi_6o-mTqmVjqP/view?usp=sharing",
+        "type": "textbook"
+    },
+    {
+        "course_name": "MATH 180C",
+        "book_title": "Intro to Stochastic Process (Fourth Edition)",
+        "link": "https://drive.google.com/file/d/1rZJA4u4NwNUkWA7u2pDi_6o-mTqmVjqP/view?usp=sharing",
+        "type": "textbook"
+    },
+    {
+        "course_name": "MATH 183",
+        "book_title": "OpenIntro Statistics",
+        "link": "https://drive.google.com/file/d/0B-DHaDEbiOGkc1RycUtIcUtIelE/view",
+        "type": "textbook"
+    },
+    {
+        "course_name": "MATH 20B",
+        "book_title": "Calculus: Early Transcendentals Solutions",
+        "link": "https://drive.google.com/file/d/0B3iUf9cATXrfVTZnUVN4ZHBPSnc/view",
+        "type": "textbook"
+    },
+    {
+        "course_name": "MATH 20E",
+        "book_title": "Supply Chain and Operations Management",
+        "link": "https://procspero.keybase.pub/%5BMath%5D%20Calculus/Jerrold%20E.%20Marsden%2C%20Anthony%20Tromba%20Vector%20Calculus.pdf",
+        "type": "textbook"
+    },
+    {
+        "course_name": "MATH 20F",
+        "book_title": "Linear Algebra and Its Applications",
+        "link": "https://onedrive.live.com/?authkey=%21AFCbp-YaAUzqCJk&cid=EE2502D1862EA1BF&id=EE2502D1862EA1BF%212005&parId=root&o=OneUp ",
+        "type": "textbook"
+    },
+    {
+        "course_name": "MATH 95",
+        "book_title": "Marketing",
+        "link": "https://drive.google.com/file/d/1AfWWN1bPGXgDTTvEE7JP4hRHUBaCkILa/view?usp=sharing",
+        "type": "textbook"
+    },
+    {
+        "course_name": "MCWP 40",
+        "book_title": "Odds Aganist Tomorrow",
+        "link": "https://drive.google.com/drive/folders/1qu6tMlvHCeP9RgQJIfkA7CJkGntCXZ7X",
+        "type": "textbook"
+    },
+    {
+        "course_name": "MCWP 40",
+        "book_title": "A Writer's Reference",
+        "link": "https:",
+        "type": "textbook"
+    },
+    {
+        "course_name": "MCWP 50",
+        "book_title": "A Writer's Reference",
+        "link": "https://drive.google.com/file/d/1vkXysNPMgyFILq7n5hpquAvEMR1FaVds/view",
+        "type": "textbook"
+    },
+    {
+        "course_name": "MCWP 50",
+        "book_title": "The Craft of Research",
+        "link": "https://thinkforactions.com/wp-content/uploads/2014/01/The-Craft-of-Research-by-Booth-Colomb-Williams.pdf",
+        "type": "textbook"
+    },
+    {
+        "course_name": "MCWP 50",
+        "book_title": "The Craft of Research (4th)",
+        "link": "https://www.docdroid.net/ecaighN/the-craft-of-research-4th.pdf",
+        "type": "textbook"
+    },
+    {
+        "course_name": "MGT 103",
+        "book_title": "Marketing (14th Edition)",
+        "link": "https://documentcloud.adobe.com/link/track?uri=urn%3Aaaid%3Ascds%3AUS%3A21930060-626b-49f9-a0f9-f4bf9d0cd531",
+        "type": "textbook"
+    },
+    {
+        "course_name": "MGT 112",
+        "book_title": "Fundamentals of Global Strategy",
+        "link": "https://www.saylor.org/site/textbooks/Fundamentals%20of%20Global%20Strategy.pdf",
+        "type": "textbook"
+    },
+    {
+        "course_name": "MGT 121A",
+        "book_title": "New Venture Creation (9th Edition)",
+        "link": "https://drive.google.com/open?id=0B9m1qGzkFP7Zc3hxVnVmTUNPYkU",
+        "type": "textbook"
+    },
+    {
+        "course_name": "MGT 131A/B",
+        "book_title": "Intermediate Accounting (15th Edition)",
+        "link": "https://drive.google.com/file/d/0B5clsvQT_r19V2FpNjdidlQ5ZHM/view",
+        "type": "textbook"
+    },
+    {
+        "course_name": "MGT 16",
+        "book_title": "The (Honest) Truth About Dishonesty",
+        "link": "https://drive.google.com/file/d/1xFWoZmScn3XnlvzYDuxhs_ubyY-4QcbP/view?usp=sharing",
+        "type": "textbook"
+    },
+    {
+        "course_name": "MGT 172",
+        "book_title": "Project Management - The Managerial Process (7th Edition)",
+        "link": "https://drive.google.com/file/d/1TBuKPh6qINUitgCmFD9LtA02iUCQyvxB/view?usp=sharing",
+        "type": "textbook"
+    },
+    {
+        "course_name": "MGT 18",
+        "book_title": "Managing Diverse Teams",
+        "link": "https://drive.google.com/file/d/1onmDSDktHD-AwYF1gLga2m1IYMpKbVLL/view?usp=sharing",
+        "type": "textbook",
+        "professor": "Michael J. Mckay"
+    },
+    {
+        "course_name": "MGT 181",
+        "book_title": "Fundamentals of Corporate Finance",
+        "link": "https://drive.google.com/file/d/0Bx_jVcfZ8qbfbU9QbHVYdkh4aFk/view",
+        "type": "textbook"
+    },
+    {
+        "course_name": "MGT 187",
+        "book_title": "Venture Deals",
+        "link": "http://www.mediafire.com/file/xs9g5y924740saj/Brad-Feld-Jason-Mendelson-Venture-Deals_-Be-Smarter-Than-Your-Lawyer-and-Venture-Capitalist-Wiley-2016.pdf",
+        "type": "textbook"
+    },
+    {
+        "course_name": "MMW 11",
+        "book_title": "A Writer's Reference",
+        "link": "https://drive.google.com/file/d/1GdZg7RAPMJFn0_Sshx4ZvHznUcnvgR0d/view?usp=sharing",
+        "type": "textbook"
+    },
+    {
+        "course_name": "MMW 11",
+        "book_title": "A History of World Societies",
+        "link": "https://www75.zippyshare.com/v/76AgtxzP/file.html",
+        "type": "textbook",
+        "professor": "Chang"
+    },
+    {
+        "course_name": "MMW 12",
+        "book_title": "A Writer's Reference",
+        "link": "https://drive.google.com/file/d/1GdZg7RAPMJFn0_Sshx4ZvHznUcnvgR0d/view?usp=sharing",
+        "type": "textbook"
+    },
+    {
+        "course_name": "MMW 12",
+        "book_title": "Buddhism in Chinese History",
+        "link": "http://www.khamkoo.com/uploads/9/0/0/4/9004485/buddhism_in_chinese_history.pdf",
+        "type": "textbook",
+        "professor": "Chang"
+    },
+    {
+        "course_name": "MMW 12",
+        "book_title": "A History of World Societies",
+        "link": "https://www75.zippyshare.com/v/76AgtxzP/file.html",
+        "type": "textbook",
+        "professor": "Chang"
+    },
+    {
+        "course_name": "MMW 13",
+        "book_title": "A Writer's Reference",
+        "link": "https://drive.google.com/file/d/1GdZg7RAPMJFn0_Sshx4ZvHznUcnvgR0d/view?usp=sharing",
+        "type": "textbook"
+    },
+    {
+        "course_name": "MMW 13",
+        "book_title": "A History of World Societies",
+        "link": "https://www75.zippyshare.com/v/76AgtxzP/file.html",
+        "type": "textbook",
+        "professor": "Chang"
+    },
+    {
+        "course_name": "MMW 14",
+        "book_title": "A Writer's Reference",
+        "link": "https://drive.google.com/file/d/1GdZg7RAPMJFn0_Sshx4ZvHznUcnvgR0d/view?usp=sharing",
+        "type": "textbook"
+    },
+    {
+        "course_name": "MMW 15",
+        "book_title": "Heart of Darkness",
+        "link": "http://www.gutenberg.org/files/219/219-h/219-h.htm",
+        "type": "textbook",
+        "professor": "Chang"
+    },
+    {
+        "course_name": "MMW 15",
+        "book_title": "A Writer's Reference",
+        "link": "https://drive.google.com/file/d/1GdZg7RAPMJFn0_Sshx4ZvHznUcnvgR0d/view?usp=sharing",
+        "type": "textbook"
+    },
+    {
+        "course_name": "PHIL 10",
+        "book_title": "Language Proof & Logic",
+        "link": "http://homepages.uc.edu/~martinj/Symbolic_Logic/341%20Syllabus,%20Textbook,%20Handouts,%20Notes/LPL%20textbook.pdf",
+        "type": "textbook"
+    },
+    {
+        "course_name": "PSYC 1",
+        "book_title": "Psychology",
+        "link": "https://drive.google.com/open?id=1tRRgFP3XeEaFFBqZpl8lVCLwjNUke0X0",
+        "type": "textbook"
+    },
+    {
+        "course_name": "PSYC 101",
+        "book_title": "How Children Develop",
+        "link": "https://www.dropbox.com/s/hu9yaoutt96qgxx/How%20Children%20Develop%20-%20Robert%20S.%20Siegler.pdf?dl=0",
+        "type": "textbook"
+    },
+    {
+        "course_name": "PSYC 105",
+        "book_title": "Cognition: Exploring the Science of the Mind",
+        "link": "https://drive.google.com/file/d/0BzUy62-eYqEiR09SeTc3NnRfdkk/view?usp=sharing",
+        "type": "textbook"
+    },
+    {
+        "course_name": "PSYC 108",
+        "book_title": "Understanding Political Science Statistics",
+        "link": "https://drive.google.com/file/d/0B2GxTc69JbqEek5tNXBxai1VQm8/view",
+        "type": "textbook"
+    },
+    {
+        "course_name": "PSYC 125",
+        "book_title": "Principles of Neurophysiology",
+        "link": "https://drive.google.com/file/d/0B9AuSkpMB9zCWHdJcGJGcG4zd0k/view?usp=sharing",
+        "type": "textbook"
+    },
+    {
+        "course_name": "PSYC 164",
+        "book_title": "Crime & Behavior",
+        "link": "https://drive.google.com/file/d/0BzUy62-eYqEibG9nMzJUY2sweGs/view",
+        "type": "textbook"
+    },
+    {
+        "course_name": "PSYC 2",
+        "book_title": "Biological Psychology (10th Edition)",
+        "link": "http://paradise.untergrund.net/tmp/roinat/Biological%20Psychology%20(2).pdf",
+        "type": "textbook"
+    },
+    {
+        "course_name": "PSYC 4",
+        "book_title": "Introduction to Learning and Behavior (4th Edition)",
+        "link": "https://www.dropbox.com/s/bozddjy99kpt607/%28PSY%20361%20Learning%29%20Russell%20A.%20Powell%2C%20P.%20Lynne%20Honey%2C%20Diane%20G.%20Symbaluk-Introduction%20to%20Learning%20and%20Behavior-Cengage%20Learning%20%282012%29.pdf?dl=0",
+        "type": "textbook"
+    },
+    {
+        "course_name": "PSYC 6",
+        "book_title": "Social Psychology (9th Edition)",
+        "link": "https://www.dropbox.com/s/qdg35qi5b3nilal/Saul%20Kassin%2C%20Steven%20Fein%2C%20Hazel%20Rose%20Markus-Social%20Psychology-Cengage%20Learning%20%282013%29.pdf?dl=0",
+        "type": "textbook"
+    },
+    {
+        "course_name": "PSYC 60",
+        "book_title": "Fundamentals of Statistics for Behavioral Sciences (9th Edition)",
+        "link": "https://drive.google.com/file/d/0B_8MulKlYNt4UE5CODVzZnJwcms/view",
+        "type": "textbook"
+    },
+    {
+        "course_name": "PSYC 70 ",
+        "book_title": "Reseach Methods for the Behavioral Sciences (4th Edition)",
+        "link": "https://www.dropbox.com/s/7paamlviywfj94r/Research%20Methods%20for%20the%20Behavioral%20Sciences.pdf?dl=0",
+        "type": "textbook"
+    },
+    {
+        "course_name": "VIS 22",
+        "book_title": "Art through the Ages: The Western Perspective (14th Edition)",
+        "link": "https://www.dropbox.com/s/0postnzon2egj6y/Art%20Throughout%20the%20Ages%2014th%20ed.pdf?dl=0",
+        "type": "textbook"
+    },
+    {
+        "course_name": "VIS 70N",
+        "book_title": "The Film Experience (4th Edition)",
+        "link": "https://drive.google.com/open?id=0B-oYRqnqkHpbN3o5ZW9mc1B6OVE",
+        "type": "textbook"
+    },
+    {
+        "course_name": "VIS 84",
+        "book_title": "The Film Experience (4th Edition)",
+        "link": "https://drive.google.com/open?id=0B-oYRqnqkHpbN3o5ZW9mc1B6OVE",
+        "type": "textbook"
+    }
+]
