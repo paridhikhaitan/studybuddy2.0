@@ -1,10 +1,14 @@
 @import "../scss/Typography.scss";
 @import "../scss/Vars.scss";
 
+.carousel-next:before{
+  background-image: url(../images/right.svg);
+}
+
 .carousel {
-  background: $pink;
-  width: 100%;
-  height: 30rem;
+  img{
+    width: 100%;
+  }
 }
 
 .wishlist {
@@ -121,11 +125,67 @@ select {
 }
 
 .bookdisplay {
-  .graphDisplay {
-    width: 100%;
-    height: 30rem;
-    background: $pink;
-    margin-top: -$spacer2;
+
+  margin-bottom: $spacer3;
+
+
+  .textbook{
+    p{
+      line-height: 3rem;
+      font-weight: 400;
+      font-size: 1.2rem;
+      color: white; 
+      text-align: center;
+      border-radius: 15px;
+      background-color: $textbook;
+      width: 60%;
+    }
+  }
+
+  .exams{
+    p{
+      font-weight: 400;
+      font-size: 1.2rem;
+      color: white; 
+      padding: 0.5rem;
+      text-align: center;
+      border-radius: 10px;
+      background-color: $exams;
+      width: 50%;
+    }
+  }
+
+  .syllabus{
+    p{
+      font-weight: 400;
+      font-size: 1.2rem;
+      color: white; 
+      padding: 0.5rem;
+      text-align: center;
+      border-radius: 10px;
+      background-color: $syllabus;
+      width: 50%;
+    }
+  }
+
+  .notes{
+    p{
+      font-weight: 400;
+      font-size: 1.2rem;
+      color: white; 
+      padding: 0.5rem;
+      text-align: center;
+      border-radius: 10px;
+      background-color: $notes;
+      width: 50%;
+    }
+  }
+
+  .inside-banner{
+    img{
+      width: 90%;
+      margin-bottom: $spacer2;
+    }
   }
 
   > * {
@@ -142,6 +202,10 @@ select {
       font-size: 1.8rem;
     }
   }
+}
+
+.book-folder{
+  margin-bottom: $spacer4;
 }
 
 .folder {
