@@ -5,8 +5,14 @@ import Main from "./Main";
 import { Container, setConfiguration } from "react-grid-system";
 import { Row, Col } from "react-grid-system";
 import Wishlist from "./components/Wishlist";
+import ReactGA from 'react-ga';
 
 setConfiguration({ gutterWidth: 50, gridColumns: 16 });
+
+function initializeReactGA() {
+  ReactGA.initialize('UA-159629320-1');
+  ReactGA.pageview('/');
+}
 
 class Display extends React.Component {
   constructor(props) {
@@ -19,12 +25,13 @@ class Display extends React.Component {
     this.togWish = this.togWish.bind(this);
   }
 
+
+
   togWish() {
     const toSet = !this.state.toggleWish;
     console.log(toSet);
     this.setState({ toggleWish: toSet });
   }
-
   render() {
     return (
       <div style={{ margin: "0" }}>

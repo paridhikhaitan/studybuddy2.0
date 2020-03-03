@@ -8,9 +8,9 @@ import BookDisplay from "./pages/BookDisplay";
 import imageMap from "./data/imageMap";
 import axios from "axios";
 import Slider from "infinite-react-carousel";
-const API_URL = "https://warm-mesa-02077.herokuapp.com/api/books";
 
 const classFolder = classArr.map(book => {});
+const API_URL = "https://warm-mesa-02077.herokuapp.com/api/books";
 
 class App extends React.Component {
   constructor(props) {
