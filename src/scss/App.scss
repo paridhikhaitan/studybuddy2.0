@@ -1,12 +1,24 @@
 @import "../scss/Typography.scss";
 @import "../scss/Vars.scss";
 
-.carousel-next:before{
+.carousel-next:before {
   background-image: url(../images/right.svg);
 }
 
+#nav {
+  font-size: 3rem;
+  display: flex;
+
+  #st {
+    color: $blue;
+    -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: $blue;
+  }
+}
+
 .carousel {
-  img{
+  img {
     width: 100%;
   }
 }
@@ -125,16 +137,14 @@ select {
 }
 
 .bookdisplay {
-
   margin-bottom: $spacer3;
 
-
-  .textbook{
-    p{
+  .textbook {
+    p {
       line-height: 3rem;
       font-weight: 400;
       font-size: 1.2rem;
-      color: white; 
+      color: white;
       text-align: center;
       border-radius: 15px;
       background-color: $textbook;
@@ -142,11 +152,11 @@ select {
     }
   }
 
-  .exams{
-    p{
+  .exams {
+    p {
       font-weight: 400;
       font-size: 1.2rem;
-      color: white; 
+      color: white;
       padding: 0.5rem;
       text-align: center;
       border-radius: 10px;
@@ -155,11 +165,11 @@ select {
     }
   }
 
-  .syllabus{
-    p{
+  .syllabus {
+    p {
       font-weight: 400;
       font-size: 1.2rem;
-      color: white; 
+      color: white;
       padding: 0.5rem;
       text-align: center;
       border-radius: 10px;
@@ -168,11 +178,11 @@ select {
     }
   }
 
-  .notes{
-    p{
+  .notes {
+    p {
       font-weight: 400;
       font-size: 1.2rem;
-      color: white; 
+      color: white;
       padding: 0.5rem;
       text-align: center;
       border-radius: 10px;
@@ -181,8 +191,8 @@ select {
     }
   }
 
-  .inside-banner{
-    img{
+  .inside-banner {
+    img {
       width: 100%;
       margin-bottom: $spacer2;
     }
@@ -204,7 +214,7 @@ select {
   }
 }
 
-.book-folder{
+.book-folder {
   margin-bottom: $spacer4;
 }
 
@@ -212,27 +222,25 @@ select {
   width: 100%;
   margin-top: $spacer3;
 
-
-
   img {
     width: 100%;
   }
 
-  .textThingy{
-    @media only screen and (max-width: $md){
+  .textThingy {
+    @media only screen and (max-width: $md) {
       margin-top: -80px;
     }
-    @media only screen and (min-width: $lg){
-      margin-top: -12rem;  
+    @media only screen and (min-width: $lg) {
+      margin-top: -12rem;
     }
-    img{
+    img {
       width: 22%;
       height: auto;
       display: block;
       margin-left: auto;
       margin-right: auto;
     }
-    p{
+    p {
       font-weight: 500;
       text-align: center;
       font-size: 1.8rem;
