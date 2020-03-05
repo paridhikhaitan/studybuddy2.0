@@ -5,14 +5,14 @@ import Main from "./Main";
 import { Container, setConfiguration } from "react-grid-system";
 import { Row, Col } from "react-grid-system";
 import Wishlist from "./components/Wishlist";
-import ReactGA from 'react-ga';
-
+import ReactGA from "react-ga";
 
 setConfiguration({ gutterWidth: 50, gridColumns: 16 });
 
 function initializeReactGA() {
-  ReactGA.initialize('UA-159629320-1');
-  ReactGA.pageview('/');
+  ReactGA.initialize("UA-159629320-1");
+  ReactGA.pageview("/");
+  console.log("Tracking GA on Main Page")
 }
 
 class Display extends React.Component {
@@ -26,8 +26,9 @@ class Display extends React.Component {
     this.togWish = this.togWish.bind(this);
   }
 
-
-
+  componentDidMount() {
+    initializeReactGA();
+  }
 
   togWish() {
     const toSet = !this.state.toggleWish;
@@ -43,7 +44,7 @@ class Display extends React.Component {
               <h4>wishlist</h4>
             </button>
           </div>
-          
+
           <BrowserRouter>
             <Main />
           </BrowserRouter>

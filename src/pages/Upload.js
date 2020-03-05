@@ -4,8 +4,15 @@ import Navbar from "../components/Navbar";
 import axios from "axios";
 import { text } from "body-parser";
 import "../scss/App.scss";
+import ReactGA from 'react-ga';
 
 const API_URL = "https://warm-mesa-02077.herokuapp.com/api/books";
+
+function initializeReactGA() {
+  ReactGA.initialize('UA-159629320-1');
+  ReactGA.pageview('/upload');
+  console.log("Tracking GA on Upload Page")
+}
 
 class Upload extends React.Component {
   constructor(props) {
@@ -24,6 +31,11 @@ class Upload extends React.Component {
     this.handleChange = this.handleChange.bind(this);
     this.handleSubmit = this.handleSubmit.bind(this);
   }
+
+  componentDidMount(){
+    initializeReactGA()
+  }
+
 
   handleChange(event) {
     const targetEvent = event.target.name;
