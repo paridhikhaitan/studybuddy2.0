@@ -62,7 +62,6 @@ class App extends React.Component {
   }
 
   displayAllBooks() {
-    console.log("from display", typeof this.state.allCourseNames);
 
     return this.state.allCourseNames.map(book => {
       let imgLink;
@@ -101,7 +100,7 @@ class App extends React.Component {
           <Navbar />
           <br style={{ clear: "both" }} />
           <Row>
-            <Col xs={16} className="carousel">
+            <Col xs={16} className="carousel" style={{zIndex: "-5"}}>
               <Slider dots autoplay="true" autoplaySpeed="5000">
                 <div>
                   <img src={require("./images/carousel/carousel1.svg")} />

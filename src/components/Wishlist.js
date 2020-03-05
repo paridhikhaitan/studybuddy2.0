@@ -2,6 +2,7 @@ import React from "react";
 import allWishes from "../data/wishlist.json";
 import { Col, Row } from "react-grid-system";
 import { Container } from "react-grid-system";
+import WOW from 'wowjs';
 
 const displayWishes = allWishes.map(wish => {
   return (
@@ -39,6 +40,10 @@ class Wishlist extends React.Component {
     this.handleSubmit = this.handleSubmit.bind(this);
   }
 
+  componentDidMount(){
+    new WOW.WOW().init();
+  }
+
   handleChange(event) {
     const e = event.target.name;
     this.setState({
@@ -52,7 +57,7 @@ class Wishlist extends React.Component {
   }
   render() {
     return (
-      <div className="wishlist">
+      <div className="wishlist wow slideInLeft">
         <Container>
           <Row justify="center">
             <Col xs={14}>

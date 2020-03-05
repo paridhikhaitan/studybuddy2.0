@@ -7,6 +7,7 @@ import { Row, Col } from "react-grid-system";
 import Wishlist from "./components/Wishlist";
 import ReactGA from 'react-ga';
 
+
 setConfiguration({ gutterWidth: 50, gridColumns: 16 });
 
 function initializeReactGA() {
@@ -24,6 +25,7 @@ class Display extends React.Component {
 
     this.togWish = this.togWish.bind(this);
   }
+
 
 
 

@@ -19,6 +19,7 @@
     "react-router": "^5.1.2",
     "react-router-dom": "^5.1.2",
     "react-scripts": "3.4.0",
+    "wow.js": "^1.2.2",
     "wowjs": "^1.1.3"
   },
   "scripts": {
