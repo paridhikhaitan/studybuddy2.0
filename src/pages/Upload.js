@@ -1,29 +1,24 @@
 import React from "react";
 import { Container, Col, Row } from "react-grid-system";
 import Navbar from "../components/Navbar";
+import axios from "axios";
 import { text } from "body-parser";
 import "../scss/App.scss";
 
-const BASE_API_URL = "http://localhost:4000/api/books";
+const API_URL = "https://warm-mesa-02077.herokuapp.com/api/books";
 
 class Upload extends React.Component {
   constructor(props) {
     super(props);
 
     this.state = {
-      link: "",
+      book_title: "",
       course_name: "",
       quarter: "",
       type: "",
       professor: "",
-      book_title: "",
-      step1: true,
-      step2: false,
-      step3: false,
-      step4: false,
-      step5: false,
-      step6: false,
-      step7: false
+      link: "",
+      uploadedPage: false
     };
 
     this.handleChange = this.handleChange.bind(this);
@@ -33,12 +28,25 @@ class Upload extends React.Component {
   handleChange(event) {
     const targetEvent = event.target.name;
     this.setState({ [targetEvent]: event.target.value });
-    console.log(event.target.value + " type: " + event.target.name);
   }
 
   handleSubmit(event) {
     event.preventDefault();
+    alert("content submitted");
     console.log(this.state);
+    const book = this.state;
+
+    axios.post(API_URL, book).then((res)=>{
+      console.log(res)
+    }).catch((err)=>{
+      console.log(err)
+    }).then(()=>{
+      console.log("AXIOS POST REQUEST DONE")
+    })
+
+    this.setState({
+      uploadedPage: true
+    });
   }
 
   render() {
@@ -47,318 +55,138 @@ class Upload extends React.Component {
         <Container>
           <Navbar />
           <br style={{ clear: "both" }} />
-
-          <Row className="uploadHeader">
-            <Col xs={16}>
-              <h1>Upload</h1>
-              <h6>Share your knowledge with 6 easy steps</h6>
-            </Col>
-          </Row>
-          {this.state.step1 && (
-            <Row className="step" justify="center">
-              <Col sm={2}>
-                <div className="number">
-                  <p>1</p>
-                </div>
-              </Col>
-              <Col sm={6}>
-                <label>
-                  <h3>Class Name</h3>
-                  <input
-                    type="text"
-                    onChange={this.handleChange}
-                    value={this.state.value}
-                    name="class"
-                    placeholder="Eg. CSE 120"
-                  />
-                </label>
-                <h6
-                  onClick={() => {
-                    this.setState({ step1: false });
-                    this.setState({ step2: true });
-                  }}
-                  name="step1"
-                >
-                  Continue ->
-                </h6>
-              </Col>
-              <Col sm={6}>
-                <img src={require("../images/step1.svg")} />
-              </Col>
-            </Row>
-          )}
-
-          {this.state.step2 && (
-            <Row className="step" justify="center">
-              <Col sm={2}>
-                <div className="number">
-                  <p>2</p>
-                </div>
-              </Col>
-              <Col sm={6}>
-                <label>
-                  <h3>Link</h3>
-                  <input
-                    type="text"
-                    onChange={this.handleChange}
-                    value={this.state.value}
-                    name="link"
-                    placeholder="http://"
-                  />
-                </label>
-                <h6
-                  onClick={() => {
-                    this.setState({ step2: false });
-                    this.setState({ step3: true });
-                  }}
-                >
-                  Continue ->
-                </h6>
-              </Col>
-              <Col sm={6}>
-                <img src={require("../images/step2.svg")} />
-              </Col>
-            </Row>
-          )}
-
-          {this.state.step3 && (
-            <Row className="step" justify="center">
-              <Col sm={2}>
-                <div className="number">
-                  <p>3</p>
-                </div>
-              </Col>
-              <Col sm={6}>
-                <label>
-                  <h3>Quarter</h3>
-                  <input
-                    type="text"
-                    onChange={this.handleChange}
-                    value={this.state.value}
-                    name="quarter"
-                    placeholder="Eg. WI20"
-                  />
-                </label>
-                <h6
-                  onClick={() => {
-                    this.setState({ step3: false });
-                    this.setState({ step4: true });
-                  }}
-                >
-                  Continue ->
-                </h6>
-              </Col>
-              <Col sm={6}>
-                <img src={require("../images/step3.svg")} />
-              </Col>
-            </Row>
-          )}
-
-          {this.state.step4 && (
-            <Row className="step" justify="center">
-              <Col sm={2}>
-                <div className="number">
-                  <p>4</p>
-                </div>
-              </Col>
-              <Col sm={6}>
-                <label>
-                  <h3>Type of Resource</h3>
-                  <select id="type" name="type" onChange={this.handleChange}>
-                    <option value="document">Document</option>
-                    <option value="syllabus">Syllabus</option>
-                    <option value="review">Review Notes</option>
-                  </select>
-                </label>
-                <h6
-                  onClick={() => {
-                    this.setState({ step4: false });
-                    this.setState({ step5: true });
-                  }}
-                >
-                  Continue ->
-                </h6>
-              </Col>
-              <Col sm={6}>
-                <img src={require("../images/step4.svg")} />
-              </Col>
-            </Row>
-          )}
-
-          {this.state.step5 && (
-            <Row className="step" justify="center">
-              <Col sm={2}>
-                <div className="number">
-                  <p>5</p>
-                </div>
-              </Col>
-              <Col sm={6}>
-                <label>
-                  <h3>Professor</h3>
-                  <input
-                    type="text"
-                    onChange={this.handleChange}
-                    value={this.state.value}
-                    name="professor"
-                    placeholder="John Doe"
-                  />
-                </label>
-                <h6
-                  onClick={() => {
-                    this.setState({ step5: false });
-                    this.setState({ step6: true });
-                  }}
-                >
-                  Continue ->
-                </h6>
-              </Col>
-              <Col sm={6}>
-                <img src={require("../images/step5.svg")} />
-              </Col>
-            </Row>
-          )}
-
-          {this.state.step6 && (
-            <Row className="step" justify="center">
-              <Col sm={2}>
-                <div className="number">
-                  <p>6</p>
-                </div>
-              </Col>
-              <Col sm={6}>
-                <label>
-                  <h3>Contributor's Name</h3>
-                  <input
-                    type="text"
-                    onChange={this.handleChange}
-                    value={this.state.value}
-                    name="name"
-                    placeholder="John Doe"
-                  />
-                </label>
-                <h6
-                  onClick={() => {
-                    this.setState({ step6: false, step7: true });
-                  }}
-                >
-                  Continue ->
-                </h6>
-              </Col>
-              <Col sm={6}>
-                <img src={require("../images/step6.svg")} />
-              </Col>
-            </Row>
-          )}
-
-          {this.state.step7 && (
-            <div className="uploadedScreen">
-              <Row justify="center">
-                
-              </Row>
-              <Row justify="center" onLoad={this.handleSubmit}>
-                <Col xs={8}>
-                  <img src={require("../images/step7.svg")} />
+          {!this.state.uploadedPage && (
+            <div>
+              <Row justify="end" style={{ textAlign: "right" }}>
+                <Col xs={16}>
+                  <h1>Upload</h1>
+                  <h6>Thank you for sharing your knowledge!</h6>
                 </Col>
               </Row>
-              <Row justify="center">
-                <Col xs={4}>
-                  <button className="uploadMore">
-                    <a href="/upload">Upload More</a>
-                  </button>
+                  
+              <Row className="formArea">
+                <Col sm={8} className="images">
+                  <div className="imagesForm">
+                    <img src={require("../images/uploadScreen.svg")} />
+                  </div>
                 </Col>
-                <Col xs={2}>
-                  <button className="home">
-                    <a href="/">Home</a>
-                  </button>
+                <Col sm={8}>
+                  <form onSubmit={this.handleSubmit}>
+                    <label>
+                      <h3>File Name: </h3>
+                      <input
+                        type="text"
+                        value={this.state.value}
+                        name="book_title"
+                        onChange={this.handleChange}
+                        placeholder="E.g. The Design of Everyday Things"
+                        required
+                      />
+                    </label>
+                    <label>
+                      <h3>Book Link:</h3>
+                      <input
+                        type="url"
+                        value={this.state.value}
+                        name="link"
+                        onChange={this.handleChange}
+                        placeholder="E.g. https://book.com"
+                        required
+                      />
+                          
+                    </label>
+                    <label for="type">
+                      <h3>File Type: </h3>
+                      <select
+                        id="type"
+                        name="type"
+                        onChange={this.handleChange}
+                        required
+                      >
+                        <option value="textbook">Textbook</option>
+                        <option value="exams">Exams</option>      
+                        <option value="notes">Notes</option>
+                        <option value="syllabus">Syllabus</option>
+                      </select>
+                          
+                    </label>
+                     
+                    <label>
+                      <h3>Course Name: </h3>
+                      <input
+                        type="text"
+                        value={this.state.value}
+                        name="course_name"
+                        onChange={this.handleChange}
+                        placeholder="E.g. COGS 120"
+                        required
+                      />
+                    </label>
+                    <label>
+                      <h3>Quarter: </h3>
+                      <input
+                        type="text"
+                        value={this.state.value}
+                        name="quarter"
+                        onChange={this.handleChange}
+                        placeholder="E.g. WI20"
+                      />
+                            
+                    </label>
+                       
+                    <label>
+                      <h3>Professor:</h3>
+                      <input
+                        type="text"
+                        value={this.state.value}
+                        name="professor"
+                        onChange={this.handleChange}
+                        placeholder="E.g. Michael Meyers"
+                      />
+                        
+                    </label>
+                        
+                    <button type="submit" className="saveUpload">
+                      <h4>upload</h4>
+                    </button>
+                  </form>
+                              
+                </Col>
+                            
+              </Row>
+            </div>
+          )}
+          {this.state.uploadedPage && (
+            <div>
+              <Row justify="end" style={{ textAlign: "right" }}>
+                <Col xs={16}>
+                  <h1>Uploaded</h1>
+                </Col>
+              </Row>
+              <Row justify="center" className="uploadedScreen upHeading">
+                <Col sm={8} style={{ marginTop: "8rem" }}>
+                  <h1>Thank You!</h1>
+                  <h6>You've sucessfully uploaded your file</h6>
+
+                  <div className="btns">
+                    <button id="up-more">
+                      <a href="/upload">upload more</a>
+                    </button>
+                    <button id="home">
+                      <a href="/">home</a>
+                    </button>
+                  </div>
+                </Col>
+                <Col sm={6}>
+                  <img
+                    src={require("../images/uploadedScreen.svg")}
+                    alt="Uploaded"
+                  />
                 </Col>
               </Row>
             </div>
           )}
-
-          {/*<Row justify="center" style={{ textAlign: "center" }}>
-            <Col sm={8}>
-              <h2>Upload Books</h2>
-              <p style={{ marginTop: "2rem" }}>
-                Thank you for helping the community grow
-              </p>
-            </Col>
-          </Row>
-          <Row className="formArea">
-            <Col sm={8}>
-              <form onSubmit={this.handleSubmit}>
-                <label>
-                  Book Title:
-                  <input
-                    type="text"
-                    value={this.state.value}
-                    name="title"
-                    onChange={this.handleChange}
-                  />
-                </label>
-                <br />
-                <label>
-                  Link:
-                  <input
-                    type="url"
-                    value={this.state.value}
-                    name="link"
-                    onChange={this.handleChange}
-                    required
-                  />
-                </label>
-                <br />
-                <label>
-                  Course:
-                  <input
-                    type="text"
-                    value={this.state.value}
-                    name="class"
-                    onChange={this.handleChange}
-                    placeholder="COGS 120"
-                  />
-                </label>
-                <br />
-                <label>
-                  Quarter:
-                  <input
-                    type="text"
-                    value={this.state.value}
-                    name="quarter"
-                    onChange={this.handleChange}
-                    placeholder="WI20"
-                  />
-                </label>
-                <br />
-                <label>
-                  Professor:
-                  <input
-                    type="text"
-                    value={this.state.value}
-                    name="professor"
-                    onChange={this.handleChange}
-                  />
-                </label>
-                <br />
-                <label for="type">
-                  Type:
-                  <select id="type" name="type" onChange={this.handleChange}>
-                    <option value="document">Document</option>
-                    <option value="syllabus">Syllabus</option>
-                    <option value="review">Review Notes</option>
-                  </select>
-                </label>
-                <br />
-                <button type="submit" className="saveUpload">
-                  <h4>upload</h4>
-                </button>
-              </form>
-            </Col>
-            <Col sm={5} className="images">
-              <div className="imagesForm">
-                <img src={require("../images/uploadpage.svg")} />
-              </div>
-            </Col>
-    </Row>*/}
+                  
         </Container>
       </div>
     );

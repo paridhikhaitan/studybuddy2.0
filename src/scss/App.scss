@@ -23,6 +23,37 @@
   }
 }
 
+.upHeading{
+  margin-top: $spacer3;
+
+  h1{
+    font-size: 6rem;
+    color: $coral;
+  }
+
+  .btns{
+    margin-top: $spacer2;
+  }
+
+  #up-more{
+    padding: 0.6rem 3rem;
+    border: 2px solid $blue;
+    background-color: $blue;
+    border-radius: 10px;
+  }
+
+  #home{
+    padding: 0.6rem 3rem;
+    border: 2px solid $blue;
+    border-radius: 10px;
+    margin-left: $spacer3;
+    a{
+      color: $blue;
+    }
+  }
+}
+
+
 .wishlist {
   position: absolute;
   top: 0;
@@ -67,6 +98,16 @@
       margin-bottom: $spacer4;
     }
   }
+
+  input,
+  select {
+    margin-top: $spacer2;
+    border: 2px solid $blue;
+    border-radius: 10px;
+    line-height: 4rem;
+    padding-left: $spacer1;
+    width: 100%;
+  }
 }
 
 .uploadBtn {
@@ -83,7 +124,7 @@
   width: 300px;
   border: none;
   border-radius: 10px;
-  margin-top: $spacer3;
+  margin-top: $spacer2;
 }
 
 .Navbar {
@@ -100,16 +141,6 @@
   float: right;
 
   margin: $spacer2 0;
-}
-
-input,
-select {
-  margin-top: $spacer2;
-  border: 2px solid $blue;
-  border-radius: 10px;
-  line-height: 4rem;
-  padding-left: $spacer1;
-  width: 100%;
 }
 
 .searchBar {
@@ -154,40 +185,39 @@ select {
 
   .exams {
     p {
+      line-height: 3rem;
       font-weight: 400;
       font-size: 1.2rem;
       color: white;
-      padding: 0.5rem;
       text-align: center;
-      border-radius: 10px;
+      border-radius: 15px;
       background-color: $exams;
-      width: 50%;
+      width: 60%;
     }
   }
 
   .syllabus {
     p {
+      line-height: 3rem;
       font-weight: 400;
       font-size: 1.2rem;
       color: white;
-      padding: 0.5rem;
       text-align: center;
-      border-radius: 10px;
+      border-radius: 15px;
       background-color: $syllabus;
-      width: 50%;
+      width: 60%;
     }
   }
 
   .notes {
-    p {
+    p {      line-height: 3rem;
       font-weight: 400;
       font-size: 1.2rem;
       color: white;
-      padding: 0.5rem;
       text-align: center;
-      border-radius: 10px;
+      border-radius: 15px;
       background-color: $notes;
-      width: 50%;
+      width: 60%;
     }
   }
 
@@ -251,13 +281,24 @@ select {
 
 .formArea {
   margin-top: $spacer3;
+
+  h3{
+    margin-top: $spacer1;
+  }
+
+  input, select{
+    border: 2px solid $pink;
+    width: 80%;
+    padding: 0.5rem;
+    border-radius: 5px;
+  }
 }
 
 .imagesForm {
   width: 100%;
 
-  img {
-    width: 600px;
+  img{
+    width: 100%;
   }
 }
 
