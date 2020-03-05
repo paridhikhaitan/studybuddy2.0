@@ -32,8 +32,6 @@ class Upload extends React.Component {
 
   handleSubmit(event) {
     event.preventDefault();
-    alert("content submitted");
-    console.log(this.state);
     const book = this.state;
 
     axios.post(API_URL, book).then((res)=>{
