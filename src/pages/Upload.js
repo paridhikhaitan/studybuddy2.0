@@ -38,8 +38,6 @@ class Upload extends React.Component {
       console.log(res)
     }).catch((err)=>{
       console.log(err)
-    }).then(()=>{
-      console.log("AXIOS POST REQUEST DONE")
     })
 
     this.setState({
