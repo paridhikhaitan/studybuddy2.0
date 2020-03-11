@@ -6,6 +6,7 @@ import { Container, setConfiguration } from "react-grid-system";
 import { Row, Col } from "react-grid-system";
 import Wishlist from "./components/Wishlist";
 import ReactGA from "react-ga";
+import Navbar from "./components/Navbar";
 
 setConfiguration({ gutterWidth: 50, gridColumns: 16 });
 
