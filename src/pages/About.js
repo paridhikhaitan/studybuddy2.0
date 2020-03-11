@@ -66,6 +66,18 @@ class About extends React.Component {
           <Row align="center" justify="center">
             <Col sm={5} xs={10}>
               <img src={require("../images/paridhi.png")} alt="paridhi" />
+              <h4>Paridhi Khaitan</h4>
+              <h3>Developer</h3>
+            </Col>
+            <Col sm={5} xs={10}>
+              <img src={require("../images/alison.png")} alt="paridhi" />
+              <h4>Alison Chen</h4>
+              <h3>Product Designer</h3>
+            </Col>
+            <Col sm={5} xs={10}>
+              <img src={require("../images/vicky.png")} alt="paridhi" />
+              <h4>Vicky Ly</h4>
+              <h3>Product Designer</h3>
             </Col>
           </Row>
         </div>

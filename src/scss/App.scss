@@ -422,9 +422,31 @@
     }
   }
 
-  .createdBy{
-    margin-top: $spacer3;
+  .createdBy {
+    margin-top: $spacer4;
+    h1{
+      margin-bottom: $spacer3;
+    }
+    img{
+      margin-bottom: $spacer2;
+    }
+    h4 {
+      
+      font-size: 2rem;
+      display: inline;
+      background-color: $blue;
+      line-height: 4rem;
+      padding: 1rem;
+      font-weight: 800;
+      text-align: center;
+    }
+
+    h3 {
+      margin-top: $spacer1;
+      line-height: 3rem;
+
+    }
   }
 
-
+  margin-bottom: $spacer4;
 }
