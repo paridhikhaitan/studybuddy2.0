@@ -15,6 +15,7 @@ class Wishlist extends React.Component {
       allWish: new Array(),
       book_title: "",
       course_name: "",
+      id:"",
       type: ""
     };
 
@@ -22,6 +23,7 @@ class Wishlist extends React.Component {
     this.handleSubmit = this.handleSubmit.bind(this);
     this.displayAllWishes = this.displayAllWishes.bind(this);
     this.loadData = this.loadData.bind(this);
+    this.deleteWish = this.deleteWish.bind(this);
   }
 
   componentDidMount() {
@@ -43,12 +45,16 @@ class Wishlist extends React.Component {
           <p>{wish.type}</p>
         </Col>
         <Col xs={2}>
-          <button type="button" className="uploadBtn">
-            <a href="/upload">upload</a>
+          <button type="button" className="uploadBtn" id={wish.id}>
+            <a>upload</a>
           </button>
         </Col>
       </Row>
     ));
+  }
+
+  deleteWish(id){
+    console.log(id)
   }
 
   loadData() {
