@@ -79,6 +79,9 @@ class Wishlist extends React.Component {
     event.preventDefault();
     console.log(this.state);
 
+    var form = document.getElementById("wishForm");
+    form.reset();
+
     axios
       .post(API_URL, this.state)
       .then(function(res) {
@@ -90,6 +93,7 @@ class Wishlist extends React.Component {
       .catch(function(error) {
         console.log("Error");
       });
+
   }
   render() {
     return (
@@ -136,7 +140,7 @@ class Wishlist extends React.Component {
           </Row>
           <Row justify="center">
             <Col sm={14}>
-              <form onSubmit={this.handleSubmit}>
+              <form onSubmit={this.handleSubmit} id="wishForm">
                 <label>
                   File Title:
                   <br />
