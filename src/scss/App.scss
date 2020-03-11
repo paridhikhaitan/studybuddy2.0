@@ -23,36 +23,35 @@
   }
 }
 
-.upHeading{
+.upHeading {
   margin-top: $spacer3;
 
-  h1{
+  h1 {
     font-size: 6rem;
     color: $coral;
   }
 
-  .btns{
+  .btns {
     margin-top: $spacer2;
   }
 
-  #up-more{
+  #up-more {
     padding: 0.6rem 3rem;
     border: 2px solid $blue;
     background-color: $blue;
     border-radius: 10px;
   }
 
-  #home{
+  #home {
     padding: 0.6rem 3rem;
     border: 2px solid $blue;
     border-radius: 10px;
     margin-left: $spacer3;
-    a{
+    a {
       color: $blue;
     }
   }
 }
-
 
 .wishlist {
   position: absolute;
@@ -101,11 +100,23 @@
 
   input,
   select {
-    margin-top: $spacer2;
-    border: 2px solid $blue;
+    margin-top: $spacer1;
+    margin-bottom: $spacer2;
+    border: 2px solid $pink;
     border-radius: 10px;
     line-height: 4rem;
     padding-left: $spacer1;
+    width: 80%;
+  }
+
+  h6{
+    font-size: 3.5rem;
+    margin: $spacer3 0;
+  }
+}
+
+@media only screen and (max-width: $sm) {
+  .wishlist {
     width: 100%;
   }
 }
@@ -167,59 +178,60 @@
   transform: rotate(90deg);
 }
 
+.textbook {
+  p {
+    line-height: 3rem;
+    font-weight: 400;
+    font-size: 1.2rem;
+    color: white;
+    text-align: center;
+    border-radius: 15px;
+    background-color: $textbook;
+    width: 60%;
+  }
+}
+
+.exams {
+  p {
+    line-height: 3rem;
+    font-weight: 400;
+    font-size: 1.2rem;
+    color: white;
+    text-align: center;
+    border-radius: 15px;
+    background-color: $exams;
+    width: 60%;
+  }
+}
+
+.syllabus {
+  p {
+    line-height: 3rem;
+    font-weight: 400;
+    font-size: 1.2rem;
+    color: white;
+    text-align: center;
+    border-radius: 15px;
+    background-color: $syllabus;
+    width: 60%;
+  }
+}
+
+.notes {
+  p {
+    line-height: 3rem;
+    font-weight: 400;
+    font-size: 1.2rem;
+    color: white;
+    text-align: center;
+    border-radius: 15px;
+    background-color: $notes;
+    width: 60%;
+  }
+}
+
 .bookdisplay {
   margin-bottom: $spacer3;
-
-  .textbook {
-    p {
-      line-height: 3rem;
-      font-weight: 400;
-      font-size: 1.2rem;
-      color: white;
-      text-align: center;
-      border-radius: 15px;
-      background-color: $textbook;
-      width: 60%;
-    }
-  }
-
-  .exams {
-    p {
-      line-height: 3rem;
-      font-weight: 400;
-      font-size: 1.2rem;
-      color: white;
-      text-align: center;
-      border-radius: 15px;
-      background-color: $exams;
-      width: 60%;
-    }
-  }
-
-  .syllabus {
-    p {
-      line-height: 3rem;
-      font-weight: 400;
-      font-size: 1.2rem;
-      color: white;
-      text-align: center;
-      border-radius: 15px;
-      background-color: $syllabus;
-      width: 60%;
-    }
-  }
-
-  .notes {
-    p {      line-height: 3rem;
-      font-weight: 400;
-      font-size: 1.2rem;
-      color: white;
-      text-align: center;
-      border-radius: 15px;
-      background-color: $notes;
-      width: 60%;
-    }
-  }
 
   .inside-banner {
     img {
@@ -282,11 +294,12 @@
 .formArea {
   margin-top: $spacer3;
 
-  h3{
+  h3 {
     margin-top: $spacer1;
   }
 
-  input, select{
+  input,
+  select {
     border: 2px solid $pink;
     width: 80%;
     padding: 0.5rem;
@@ -297,7 +310,7 @@
 .imagesForm {
   width: 100%;
 
-  img{
+  img {
     width: 100%;
   }
 }

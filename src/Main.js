@@ -7,7 +7,7 @@ import Upload from './pages/Upload';
 class Main extends React.Component{
     render(){
         return(
-            <main>
+            <main id="main">
                 <Switch>
                     <Route exact path="/" component={App}/>
                     <Route exact path="/book" component={BookDisplay}/>
