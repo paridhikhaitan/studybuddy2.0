@@ -109,7 +109,7 @@
     width: 80%;
   }
 
-  h6{
+  h6 {
     font-size: 3.5rem;
     margin: $spacer3 0;
     font-weight: 600;
@@ -306,6 +306,31 @@
     width: 80%;
     padding: 0.5rem;
     border-radius: 5px;
+  }
+}
+
+.login {
+  margin-top: $spacer4;
+  h1 {
+    margin-bottom: $spacer2;
+  }
+  p {
+    margin-top: $spacer1;
+  }
+  input,
+  select {
+    border: 2px solid $pink;
+    width: 80%;
+    padding: 0.5rem;
+    border-radius: 5px;
+  }
+
+  img {
+    width: 100%;
+  }
+
+  button {
+    margin-top: $spacer2;
   }
 }
 
