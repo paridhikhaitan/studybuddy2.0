@@ -39,7 +39,16 @@ class Upload extends React.Component {
 
   handleChange(event) {
     const targetEvent = event.target.name;
+
+    if(targetEvent === "file_link")
+    {
+      console.log("here")
+      this.setState({
+        link : event.target.files[0]
+      })
+    }
     this.setState({ [targetEvent]: event.target.value });
+    console.log(this.state, targetEvent)
   }
 
   handleSubmit(event) {
@@ -68,12 +77,12 @@ class Upload extends React.Component {
               <Row justify="end" style={{ textAlign: "right" }}>
                 <Col xs={16}>
                   <h1>Upload</h1>
-                  <h6>Thank you for sharing your knowledge!</h6>
+                  <h6>Thank you for sharing your resources!</h6>
                 </Col>
               </Row>
                   
-              <Row className="formArea">
-                <Col sm={8} className="images">
+              <Row className="formArea" justify="center" align="center"> 
+                <Col xs={10} md={8} lg={6} className="images">
                   <div className="imagesForm">
                     <img src={require("../images/uploadScreen.svg")} />
                   </div>
@@ -99,8 +108,9 @@ class Upload extends React.Component {
                         name="link"
                         onChange={this.handleChange}
                         placeholder="E.g. https://book.com"
-                        required
                       />
+
+                      <input type="file" value={this.state.value} name="file_link" onChange={this.handleChange} />
                           
                     </label>
                     <label for="type">

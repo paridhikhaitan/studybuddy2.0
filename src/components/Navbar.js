@@ -21,9 +21,6 @@ class Navbar extends React.Component {
             <h4>
               <a href="/about">about</a>
             </h4>
-            <h4>
-              <a href="/login">login</a>
-            </h4>
             <button className="uploadBtn">
               <a href="/upload">upload</a>
             </button>
