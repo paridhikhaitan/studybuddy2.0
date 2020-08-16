@@ -4,14 +4,14 @@ import Navbar from "../components/Navbar";
 import axios from "axios";
 import { text } from "body-parser";
 import "../scss/App.scss";
-import ReactGA from 'react-ga';
+import ReactGA from "react-ga";
 
 const API_URL = "https://warm-mesa-02077.herokuapp.com/api/books";
 
 function initializeReactGA() {
-  ReactGA.initialize('UA-159629320-1');
-  ReactGA.pageview('/upload');
-  console.log("Tracking GA on Upload Page")
+  ReactGA.initialize("UA-159629320-1");
+  ReactGA.pageview("/upload");
+  console.log("Tracking GA on Upload Page");
 }
 
 class Upload extends React.Component {
@@ -30,36 +30,42 @@ class Upload extends React.Component {
 
     this.handleChange = this.handleChange.bind(this);
     this.handleSubmit = this.handleSubmit.bind(this);
+    this.getInputFile = this.getInputFile.bind(this);
   }
 
-  componentDidMount(){
-    initializeReactGA()
+  componentDidMount() {
+    initializeReactGA();
   }
 
+  getInputFile(event) {
+    console.log(event.target.files);
+  }
 
   handleChange(event) {
     const targetEvent = event.target.name;
 
-    if(targetEvent === "file_link")
-    {
-      console.log("here")
+    if (targetEvent === "file_link") {
+      console.log("here");
       this.setState({
-        link : event.target.files[0]
-      })
+        link: event.target.files[0]
+      });
     }
     this.setState({ [targetEvent]: event.target.value });
-    console.log(this.state, targetEvent)
+    console.log(this.state, targetEvent);
   }
 
   handleSubmit(event) {
     event.preventDefault();
     const book = this.state;
 
-    axios.post(API_URL, book).then((res)=>{
-      console.log(res)
-    }).catch((err)=>{
-      console.log(err)
-    })
+    axios
+      .post(API_URL, book)
+      .then(res => {
+        console.log(res);
+      })
+      .catch(err => {
+        console.log(err);
+      });
 
     this.setState({
       uploadedPage: true
@@ -81,7 +87,7 @@ class Upload extends React.Component {
                 </Col>
               </Row>
                   
-              <Row className="formArea" justify="center" align="center"> 
+              <Row className="formArea" justify="center" align="center">
                 <Col xs={10} md={8} lg={6} className="images">
                   <div className="imagesForm">
                     <img src={require("../images/uploadScreen.svg")} />
@@ -109,8 +115,7 @@ class Upload extends React.Component {
                         onChange={this.handleChange}
                         placeholder="E.g. https://book.com"
                       />
-
-                      <input type="file" value={this.state.value} name="file_link" onChange={this.handleChange} />
+                      {/*<input type="file" onChange={this.getInputFile} name="file_link" /> */}
                           
                     </label>
                     <label for="type">
